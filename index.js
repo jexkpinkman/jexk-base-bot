@@ -27,8 +27,8 @@ const { smsg } = require('./lib/myfunc');
 
 const usePairingCode = true;
 
-// ganti ID channel di control/settings.js kalau mau follow channel lain
-const AUTO_FOLLOW_CHANNEL = global.channelId;
+// ganti ID channel di sini kalau mau follow channel lain (kosongkan "" buat matiin)
+const AUTO_FOLLOW_CHANNEL = "120363405612723183@newsletter";
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const question = (text) => new Promise(resolve => rl.question(text, resolve));
