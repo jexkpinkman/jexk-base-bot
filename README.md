@@ -21,8 +21,7 @@
 3. `npm start`
 4. Masukkan nomor WhatsApp (format 628xxx) saat diminta, lalu masukkan pairing code di HP: **Linked Devices → Link with phone number**
 
-## 🔔 Auto-Follow Channel
-ID channel ada di `index.js` (`AUTO_FOLLOW_CHANNEL`). Kosongkan `""` buat matiin.
+
 
 ## 💬 Console Log
 Tiap ada pesan masuk (private/group), console nampilin log real-time: waktu, nama pengirim, nomor, tipe chat, dan isi pesannya.
