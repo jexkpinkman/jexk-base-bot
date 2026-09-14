@@ -12,5 +12,3 @@ global.namaown = "jexkpinkman";
 global.owner = ["6285212645395"];
 global.session = "sessions";
 
-// channel yang di-follow otomatis pas bot connect (kosongkan string buat matiin)
-global.channelId = "120363405612723183@newsletter";
