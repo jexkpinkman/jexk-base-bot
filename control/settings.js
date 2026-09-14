@@ -1,0 +1,16 @@
+
+         //﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌//
+       //    </>  𝐂𝐫𝐞𝐝𝐢𝐭𝐬  </>      //
+     //   𝐂𝐫𝐞𝐚𝐭𝐨𝐫: 𝐣𝐞𝐱𝐤𝐩𝐢𝐧𝐤𝐦𝐚𝐧      //
+   //   𝐆𝐢𝐭𝐡𝐮𝐛: 𝐣𝐞𝐱𝐤𝐩𝐢𝐧𝐤𝐦𝐚𝐧      //
+ //   𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 𝟔𝟐𝟖𝟓𝟐𝟏𝟐𝟔𝟒𝟓𝟑𝟗𝟓   //
+//   𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: 𝐭.𝐦𝐞/𝐉𝐚𝐜𝐤_𝐩𝐢𝐧𝐤𝐦𝐚𝐧  //
+//﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌//
+
+// settings bot
+global.namaown = "jexkpinkman";
+global.owner = ["6285212645395"];
+global.session = "sessions";
+
+// channel yang di-follow otomatis pas bot connect (kosongkan string buat matiin)
+global.channelId = "120363405612723183@newsletter";
