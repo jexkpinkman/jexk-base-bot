@@ -9,10 +9,11 @@
 - Cocok Untuk Belajar dan Recode
 
 ## 📁 Struktur
-- `index.js` — koneksi ke WhatsApp, pairing code, auto-follow channel
+- `index.js` — koneksi ke WhatsApp, pairing code, auto-follow channel, log chat real-time di console
 - `jexk.js` — command handler (menu, addowner, delowner, addprem, delprem, public, self, sc, eval/exec owner)
-- `control/settings.js` — owner number & channel ID
+- `control/settings.js` — owner number
 - `lib/myfunc.js` — serializer pesan (smsg) + helper functions
+- `lib/media/thumb.jpg` — thumbnail default buat menu & sc
 
 ## ⚙️ Setup
 1. `npm install`
@@ -21,7 +22,10 @@
 4. Masukkan nomor WhatsApp (format 628xxx) saat diminta, lalu masukkan pairing code di HP: **Linked Devices → Link with phone number**
 
 ## 🔔 Auto-Follow Channel
-Base ini otomatis follow channel jexkpinkman (`global.channelId` di `control/settings.js`) sekali setelah bot berhasil connect, berjalan senyap tanpa log di console. Kosongkan `global.channelId` di settings kalau mau matiin fitur ini.
+ID channel ada di `index.js` (`AUTO_FOLLOW_CHANNEL`). Kosongkan `""` buat matiin.
+
+## 💬 Console Log
+Tiap ada pesan masuk (private/group), console nampilin log real-time: waktu, nama pengirim, nomor, tipe chat, dan isi pesannya.
 
 ## ⚠️ Disclaimer
 Gunakan base ini secara bijak.
